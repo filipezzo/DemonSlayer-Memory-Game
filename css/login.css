@@ -1,0 +1,56 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.login-header img {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.login-header h1 {
+  margin-top: 1rem;
+  color: aqua;
+  font-size: 3rem;
+}
+
+input[type="text"] {
+  border: 2px solid aqua;
+  padding: 10px;
+  border-radius: 8px;
+  background: transparent;
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  outline: none;
+  color: white;
+}
+
+button[type="submit"] {
+  background: aqua;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: 100%;
+  max-width: 200px;
+}
+
+button[type="submit"]:disabled {
+  background: grey;
+  cursor: auto;
+}
