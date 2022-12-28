@@ -13,7 +13,7 @@ const validateInput = ({ target }) => {
 const handleSubmit = (e) => {
   e.preventDefault();
   localStorage.setItem('player', input.value);
-  window.location = '../pages/games.html';
+  window.location = './pages/games.html';
 
 }
 
